@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .profile-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .profile-info img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .profile-info h1 {
+      margin: 0;
+    }
+    .bio {
+      margin-bottom: 20px;
+    }
+    .repositories {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .repository {
+      width: calc(33.33% - 20px);
+      margin: 0 10px 20px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="profile-info">
+    <img src="your-profile-picture.jpg" alt="Profile Picture">
+    <div>
+      <h1>Your Name</h1>
+      <p>Location: Your Location</p>
+      <p>Email: your.email@example.com</p>
+      <p>GitHub: <a href="https://github.com/your-github-profile">github.com/your-github-profile</a></p>
+      <p>Bio: Your Bio Here</p>
+    </div>
+  </div>
+
+  <h2>Repositories</h2>
+  <div class="repositories">
+    <div class="repository">
+      <h3>Project 1</h3>
+      <p>Description of Project 1</p>
+      <a href="https://github.com/your-github-profile/project-1">View Repository</a>
+    </div>
+    <div class="repository">
+      <h3>Project 2</h3>
+      <p>Description of Project 2</p>
+      <a href="https://github.com/your-github-profile/project-2">View Repository</a>
+    </div>
+    <!-- Add more repositories as needed -->
+  </div>
+
+</div>
+
+</body>
+</html>
